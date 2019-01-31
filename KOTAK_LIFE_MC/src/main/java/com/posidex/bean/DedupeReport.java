@@ -1,0 +1,138 @@
+package com.posidex.bean;
+
+public class DedupeReport {
+
+private String	SOURCE;
+private String	PROPOSAL_NO;
+private String	NEW_CLIENT_CREATED;
+private String	SOURCE_CLIENT_ID;
+private String	RETAINED_CLIENT_ID;
+private String	MERGED_CLIENT_ID;
+private String	EXISTING_CLIENT_ID;
+private String	COUNT_OF_MATCHING_CLIENT_ID;
+private String	MATCHING_CLIENT_IDS;
+private String	AUTO_MANUAL_SELECTION;
+private String	CONFIDENCE_LEVEL_MATCH;
+private String	RULES;
+private String	TYPE_OF_SYSTEM;
+private String	ACTIVITY_COMPLETED;
+	private String	USER_ID;
+	private String	SIMULTANEOUS_POLICY_LIST;
+	private String	DECISION_TAKEN;
+	public String getSOURCE() {
+		return SOURCE;
+	}
+	public void setSOURCE(String sOURCE) {
+		SOURCE = sOURCE;
+	}
+	public String getPROPOSAL_NO() {
+		return PROPOSAL_NO;
+	}
+	public void setPROPOSAL_NO(String pROPOSAL_NO) {
+		PROPOSAL_NO = pROPOSAL_NO;
+	}
+	public String getNEW_CLIENT_CREATED() {
+		return NEW_CLIENT_CREATED;
+	}
+	public void setNEW_CLIENT_CREATED(String nEW_CLIENT_CREATED) {
+		NEW_CLIENT_CREATED = nEW_CLIENT_CREATED;
+	}
+	public String getSOURCE_CLIENT_ID() {
+		return SOURCE_CLIENT_ID;
+	}
+	public void setSOURCE_CLIENT_ID(String sOURCE_CLIENT_ID) {
+		SOURCE_CLIENT_ID = sOURCE_CLIENT_ID;
+	}
+	public String getRETAINED_CLIENT_ID() {
+		return RETAINED_CLIENT_ID;
+	}
+	public void setRETAINED_CLIENT_ID(String rETAINED_CLIENT_ID) {
+		RETAINED_CLIENT_ID = rETAINED_CLIENT_ID;
+	}
+	public String getMERGED_CLIENT_ID() {
+		return MERGED_CLIENT_ID;
+	}
+	public void setMERGED_CLIENT_ID(String mERGED_CLIENT_ID) {
+		MERGED_CLIENT_ID = mERGED_CLIENT_ID;
+	}
+	public String getEXISTING_CLIENT_ID() {
+		return EXISTING_CLIENT_ID;
+	}
+	public void setEXISTING_CLIENT_ID(String eXISTING_CLIENT_ID) {
+		EXISTING_CLIENT_ID = eXISTING_CLIENT_ID;
+	}
+	public String getCOUNT_OF_MATCHING_CLIENT_ID() {
+		return COUNT_OF_MATCHING_CLIENT_ID;
+	}
+	public void setCOUNT_OF_MATCHING_CLIENT_ID(String cOUNT_OF_MATCHING_CLIENT_ID) {
+		COUNT_OF_MATCHING_CLIENT_ID = cOUNT_OF_MATCHING_CLIENT_ID;
+	}
+	public String getMATCHING_CLIENT_IDS() {
+		return MATCHING_CLIENT_IDS;
+	}
+	public void setMATCHING_CLIENT_IDS(String mATCHING_CLIENT_IDS) {
+		MATCHING_CLIENT_IDS = mATCHING_CLIENT_IDS;
+	}
+	public String getAUTO_MANUAL_SELECTION() {
+		return AUTO_MANUAL_SELECTION;
+	}
+	public void setAUTO_MANUAL_SELECTION(String aUTO_MANUAL_SELECTION) {
+		AUTO_MANUAL_SELECTION = aUTO_MANUAL_SELECTION;
+	}
+	public String getCONFIDENCE_LEVEL_MATCH() {
+		return CONFIDENCE_LEVEL_MATCH;
+	}
+	public void setCONFIDENCE_LEVEL_MATCH(String cONFIDENCE_LEVEL_MATCH) {
+		CONFIDENCE_LEVEL_MATCH = cONFIDENCE_LEVEL_MATCH;
+	}
+	public String getRULES() {
+		return RULES;
+	}
+	public void setRULES(String rULES) {
+		RULES = rULES;
+	}
+	public String getTYPE_OF_SYSTEM() {
+		return TYPE_OF_SYSTEM;
+	}
+	public void setTYPE_OF_SYSTEM(String tYPE_OF_SYSTEM) {
+		TYPE_OF_SYSTEM = tYPE_OF_SYSTEM;
+	}
+	public String getACTIVITY_COMPLETED() {
+		return ACTIVITY_COMPLETED;
+	}
+	public void setACTIVITY_COMPLETED(String aCTIVITY_COMPLETED) {
+		ACTIVITY_COMPLETED = aCTIVITY_COMPLETED;
+	}
+	public String getUSER_ID() {
+		return USER_ID;
+	}
+	public void setUSER_ID(String uSER_ID) {
+		USER_ID = uSER_ID;
+	}
+	public String getSIMULTANEOUS_POLICY_LIST() {
+		return SIMULTANEOUS_POLICY_LIST;
+	}
+	public void setSIMULTANEOUS_POLICY_LIST(String sIMULTANEOUS_POLICY_LIST) {
+		SIMULTANEOUS_POLICY_LIST = sIMULTANEOUS_POLICY_LIST;
+	}
+	public String getDECISION_TAKEN() {
+		return DECISION_TAKEN;
+	}
+	public void setDECISION_TAKEN(String dECISION_TAKEN) {
+		DECISION_TAKEN = dECISION_TAKEN;
+	}
+	@Override
+	public String toString() {
+		return "DedupeReport [SOURCE=" + SOURCE + ", PROPOSAL_NO=" + PROPOSAL_NO + ", NEW_CLIENT_CREATED="
+				+ NEW_CLIENT_CREATED + ", SOURCE_CLIENT_ID=" + SOURCE_CLIENT_ID + ", RETAINED_CLIENT_ID="
+				+ RETAINED_CLIENT_ID + ", MERGED_CLIENT_ID=" + MERGED_CLIENT_ID + ", EXISTING_CLIENT_ID="
+				+ EXISTING_CLIENT_ID + ", COUNT_OF_MATCHING_CLIENT_ID=" + COUNT_OF_MATCHING_CLIENT_ID
+				+ ", MATCHING_CLIENT_IDS=" + MATCHING_CLIENT_IDS + ", AUTO_MANUAL_SELECTION=" + AUTO_MANUAL_SELECTION
+				+ ", CONFIDENCE_LEVEL_MATCH=" + CONFIDENCE_LEVEL_MATCH + ", RULES=" + RULES + ", TYPE_OF_SYSTEM="
+				+ TYPE_OF_SYSTEM + ", ACTIVITY_COMPLETED=" + ACTIVITY_COMPLETED + ", USER_ID=" + USER_ID
+				+ ", SIMULTANEOUS_POLICY_LIST=" + SIMULTANEOUS_POLICY_LIST + ", DECISION_TAKEN=" + DECISION_TAKEN + "]";
+	}
+
+	
+	
+}
