@@ -14,7 +14,9 @@ public class KotakLifeMcApplication extends SpringBootServletInitializer {
 	
 	    @Override
 	    protected SpringApplicationBuilder configure(SpringApplicationBuilder application) {
-	        return application.sources(KotakLifeMcApplication.class);
+	        System.out.println("Test Git changes");
+	    	return application.sources(KotakLifeMcApplication.class);
+	    	
 	    }
 
 	    public static void main(String[] args) {
